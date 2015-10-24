@@ -1,4 +1,4 @@
-# MenuItemBook
+# MenuItemBook.js
 This is a modified version of ItemBook.js (original script) for RPG Maker MV.  
 In this version, you can also include the Item Book on the player's menu.
 
