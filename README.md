@@ -10,3 +10,7 @@ In this version, you can also include the Item Book on the player's menu.
 ### Parameters
 * ``Add to Menu``:  Always include the Item Book on the menu (0: no, 1: yes).
 * ``Menu Text``: Label of the Item Book on the menu.
+
+### ChangeLog
+
+* 10/24/2015: Version 1.0
