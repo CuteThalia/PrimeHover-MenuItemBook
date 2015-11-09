@@ -98,7 +98,7 @@
 
 (function() {
 
-    var parameters = PluginManager.parameters('ItemBook');
+    var parameters = PluginManager.parameters('MenuItemBook');
     var unknownData = String(parameters['Unknown Data'] || '??????');
     var priceText = String(parameters['Price Text'] || 'Price');
     var equipText = String(parameters['Equip Text'] || 'Equip');
@@ -223,6 +223,7 @@
      * The code below adds the ItemBook Scene to the Menu
      */
 
+    console.log(parameters);
     if (addToMenu == 1) {
 
         var Window_MenuCommand_prototype_addOriginalCommands = Window_MenuCommand.prototype.addOriginalCommands;
