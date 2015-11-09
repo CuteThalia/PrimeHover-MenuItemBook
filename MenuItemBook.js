@@ -225,7 +225,9 @@
 
     if (addToMenu == 1) {
 
+        var Window_MenuCommand_prototype_addOriginalCommands = Window_MenuCommand.prototype.addOriginalCommands;
         Window_MenuCommand.prototype.addOriginalCommands = function() {
+            Window_MenuCommand_prototype_addOriginalCommands.call(this);
             this.addCommand(menuText, 'itembook');
         };
 
