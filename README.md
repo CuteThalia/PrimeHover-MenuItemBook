@@ -13,4 +13,5 @@ In this version, you can also include the Item Book on the player's menu.
 
 ### ChangeLog
 
+* 11/08/2015: Fixed incompatibility issue that did not allowed this script to be called by the menu if other scripts being called by the menu were in the project.
 * 10/24/2015: Version 1.0
