@@ -1,0 +1,11 @@
+# MenuItemBook
+Modified version of ItemBook.js for RPG Maker MV
+
+# Link
+None
+
+# Notes
+None
+
+# License
+> Free for commercial and non-commercial use as long as you give the credits of this plugin.
